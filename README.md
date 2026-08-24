@@ -1,2 +1,4 @@
 # Fundamentos de Programação
-Repositório de atividades de FUP usando a linguagem Python
+Repositório de FUP usando a linguagem Python
+
+Criado para versionar atividades desenvolvidos durante o semestre
