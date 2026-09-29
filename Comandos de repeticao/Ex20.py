@@ -9,10 +9,14 @@
 
 def funcao(n):
     alt = (2*n)-1
-    for i in range(1, ((alt+1)//2)):
-        print("*"*i)
-    for i in range(((alt+1)//2), 0, -1):
-        print("*"*i)
+    for i in range(1, n):
+        for j in range(1, i+1):
+            print("*", end="")
+        print("")
+    for i in range(n, 0, -1):
+        for k in range(i, 0, -1):
+            print("*", end="")
+        print("")
 
 x = int(input(""))
 funcao(x)
