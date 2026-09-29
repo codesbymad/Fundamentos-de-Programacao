@@ -7,8 +7,11 @@
 '''
 
 def funcao(n):
+    exc = "!"
     for i in range(1, n+1):
-        print("!"*i)
+        for j in range(1, i+1):
+            print(exc, end="")
+        print("")
 
 x = int(input(""))
 funcao(x)
